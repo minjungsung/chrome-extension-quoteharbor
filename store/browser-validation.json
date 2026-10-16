@@ -1,0 +1,14 @@
+{
+  "extension": "marginmemo",
+  "validated": true,
+  "popup": {
+    "height": 600,
+    "width": 400,
+    "title": "MarginMemo"
+  },
+  "checks": [
+    "search library",
+    "edit persisted"
+  ],
+  "fixture": "Fictional local example domains and data; isolated browser profile"
+}
