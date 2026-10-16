@@ -2,3 +2,5 @@
 :root{ --accent:#377052; }
 
 body:not(.library){height:600px;display:flex;flex-direction:column}body:not(.library) main{flex:1;overflow-y:auto;min-height:0}body:not(.library) header,body:not(.library) footer{flex-shrink:0}.library{display:block;height:auto}
+
+:root{--accent:#386c80;background:#f3f6f5}.full{width:100%}.clip blockquote{margin:15px 0;padding:12px 16px;border-left:3px solid #8baab4;background:#f5f8f9;white-space:pre-wrap;font-family:Georgia,serif;font-size:16px;line-height:1.7}.clip-note{white-space:pre-wrap;font-size:13px}.source{display:block;margin-top:12px;font-size:12px}.editor textarea,.editor input,.editor button{margin-top:10px}.primary{background:var(--accent)}.library main{padding-bottom:40px}

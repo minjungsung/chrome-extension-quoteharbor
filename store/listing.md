@@ -1,8 +1,8 @@
-# MarginMemo
+# QuoteHarbor
 
 ## Category
 
-Productivity
+Workflow & Planning
 
 ## Language
 
@@ -10,16 +10,23 @@ English
 
 ## Description
 
-MarginMemo keeps your thoughts next to the pages that inspired them. Save a note for the current page, then search your note library when you need it again.
+Good ideas deserve a safe harbor.
+
+QuoteHarbor saves selected web passages with their source, your interpretation, and tags. Build a private research library, find a thought again, and export Markdown when it is time to write.
 
 FEATURES
-- One private note per web page, up to 20,000 characters each.
-- A searchable library for up to 1,000 page notes.
-- Edit saved notes and reopen their source pages.
-- Export a JSON backup and import it without overwriting existing page notes.
-- No accounts, cloud sync, ads, or analytics.
+- Capture selected text from the current web page or paste a quote.
+- Attach a source URL, a note, and tags to every clip.
+- Save multiple clips from the same page.
+- Search quotes, notes, titles, URLs, and tags in a local library.
+- Edit clips, reopen source pages, and copy individual clips as Markdown.
+- Export filtered Markdown or JSON backups; import valid backups.
 
-Open a web page, click MarginMemo, write your note, and choose Save note. Notes match the page URL excluding its fragment; distinct query strings count as distinct pages. Changes are saved explicitly with the Save controls. Notes are not inserted into websites and page content is not read.
+GOOD TO KNOW
+Stores up to 1,000 clips, with quotes and notes limited to 20,000 characters each. Capture works on permitted HTTP and HTTPS pages. Some pages, embedded frames, and browser PDF viewers do not allow capture; paste text manually when needed. QuoteHarbor does not highlight websites permanently, create verified academic citations, summarize with AI, or sync to a cloud. Existing MarginMemo notes migrate to the library on first open.
 
-PRIVACY
-Notes, page URLs, titles, and update times stay in local extension storage. Exported backups may contain sensitive notes or private URLs; keep them somewhere you trust. Uninstalling removes local notes.
+PRIVATE BY DEFAULT
+No account, analytics, advertising, cloud synchronization, or developer servers. Processing happens on your device. Saved data uses local extension storage. Exported files may contain private information; keep them somewhere you trust.
+
+SUPPORT
+Report bugs or suggestions through the support link. Please remove private URLs, notes, and credentials from reports.

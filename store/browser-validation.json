@@ -1,14 +1,16 @@
 {
-  "extension": "marginmemo",
+  "extension": "quoteharbor",
+  "version": "1.1.0",
   "validated": true,
   "popup": {
     "height": 600,
     "width": 400,
-    "title": "MarginMemo"
+    "title": "QuoteHarbor"
   },
   "checks": [
-    "search library",
-    "edit persisted"
+    "activeTab selection capture",
+    "source-linked clip save",
+    "library search"
   ],
-  "fixture": "Fictional local example domains and data; isolated browser profile"
+  "fixture": "Isolated browser with fictional example domains and local data"
 }

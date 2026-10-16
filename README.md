@@ -1,39 +1,40 @@
-# MarginMemo
+# QuoteHarbor
 
-A thought belongs with its page.
+Good ideas deserve a safe harbor.
 
-Keep private notes for the pages you visit. Search your page notes, export a backup, and keep your research in one place.
+QuoteHarbor saves selected web passages with their source, your interpretation, and tags. Build a private research library, find a thought again, and export Markdown when it is time to write.
+
+## Features
+
+- Capture selected text from the current web page or paste a quote.
+- Attach a source URL, a note, and tags to every clip.
+- Save multiple clips from the same page.
+- Search quotes, notes, titles, URLs, and tags in a local library.
+- Edit clips, reopen source pages, and copy individual clips as Markdown.
+- Export filtered Markdown or JSON backups; import valid backups.
+
+## Limits
+
+Stores up to 1,000 clips, with quotes and notes limited to 20,000 characters each. Capture works on permitted HTTP and HTTPS pages. Some pages, embedded frames, and browser PDF viewers do not allow capture; paste text manually when needed. QuoteHarbor does not highlight websites permanently, create verified academic citations, summarize with AI, or sync to a cloud. Existing MarginMemo notes migrate to the library on first open.
 
 ## Development
 
-Open `chrome://extensions`, enable Developer mode, choose **Load unpacked**, and select `extension/`. No build or package dependencies are needed.
+Open `chrome://extensions`, enable Developer mode, choose **Load unpacked**, and select `extension/`. All runtime assets are packaged locally.
 
-Run `npm test` for logic tests and `npm run package` to validate and create a clean ZIP in `dist/`.
+Run `npm test` for logic tests. Run `npm run package` to validate and create an upload ZIP in `dist/`. No build step or runtime package dependencies are required.
 
 ## Privacy
 
-See [PRIVACY.md](PRIVACY.md) for stored data and permission explanations. No accounts, analytics, ads, or developer servers.
+Local data includes captured quote text, user-written notes, tags, source page titles and URLs, and timestamps. Capturing reads only the current selection in the top page frame when explicitly requested.
+
+`activeTab` temporarily accesses the current page after you invoke the extension. `scripting` reads the selected text only when you choose Capture selected text. `storage` saves the library on your device. No background website scanning occurs.
+
+See [PRIVACY.md](PRIVACY.md). No developer servers, advertising, or analytics.
 
 ## Support
 
-Report bugs through this repository's issue tracker. Include reproducible steps and the extension version, with private information removed.
+Report reproducible bugs through this repository's issue tracker. Remove private information first.
 
 ## License
 
 MIT.
-
-## Features and limits
-
-MarginMemo keeps your thoughts next to the pages that inspired them. Save a note for the current page, then search your note library when you need it again.
-
-FEATURES
-- One private note per web page, up to 20,000 characters each.
-- A searchable library for up to 1,000 page notes.
-- Edit saved notes and reopen their source pages.
-- Export a JSON backup and import it without overwriting existing page notes.
-- No accounts, cloud sync, ads, or analytics.
-
-Open a web page, click MarginMemo, write your note, and choose Save note. Notes match the page URL excluding its fragment; distinct query strings count as distinct pages. Changes are saved explicitly with the Save controls. Notes are not inserted into websites and page content is not read.
-
-PRIVACY
-Notes, page URLs, titles, and update times stay in local extension storage. Exported backups may contain sensitive notes or private URLs; keep them somewhere you trust. Uninstalling removes local notes.
