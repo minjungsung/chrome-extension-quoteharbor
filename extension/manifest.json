@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "QuoteHarbor",
-  "version": "1.1.0",
-  "description": "Capture selected web quotes with their sources and your notes. Search a private research library and export it as Markdown.",
+  "version": "1.2.0",
+  "description": "Select a web sentence, open the popup, and save it with its source. Notes and tags are optional; export Markdown later.",
   "permissions": [
     "storage",
     "activeTab",

@@ -1,16 +1,13 @@
 {
   "extension": "quoteharbor",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "validated": true,
-  "popup": {
-    "height": 600,
-    "width": 400,
-    "title": "QuoteHarbor"
-  },
   "checks": [
-    "activeTab selection capture",
-    "source-linked clip save",
+    "real toolbar automatic selection preview",
+    "save without notes/tags",
+    "undo",
     "library search"
   ],
-  "fixture": "Isolated browser with fictional example domains and local data"
+  "fixture": "Disposable Chrome profile; fictional example domains; no account required",
+  "limitations": "Functional checks do not measure user demand or retention. Focus completion was accelerated as disclosed in the demo."
 }

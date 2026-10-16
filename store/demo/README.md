@@ -1,29 +1,12 @@
-# QuoteHarbor walkthrough
+# QuoteHarbor guided demo
 
-Watch the [MP4 demo](walkthrough.mp4) or the animated walkthrough below. These are guided captures of the actual Chrome extension UI, using a disposable profile and fictional example URLs. The video advances between action frames; it is not continuous screen recording.
+Version 1.2.0. Actual Chrome extension actions captured as guided frames, not a continuous screen recording. Fictional example domains and article text in an isolated disposable profile.
 
-![QuoteHarbor animated walkthrough](walkthrough.gif)
+[Watch MP4](walkthrough.mp4) · [Animated GIF](walkthrough.gif) · [Browser player](index.html)
 
-## 1. Select a passage on a web page
-
-This article uses fictional content on an example domain.
-
-## 2. Capture the selection
-
-QuoteHarbor reads only the selected text when you ask it to.
-
-## 3. Add why it mattered
-
-Write your interpretation and add tags before saving.
-
-## 4. Save the quote with its source
-
-The clip is stored locally with its source URL, note, tags, and capture time.
-
-## 5. Return to your research library
-
-Read the quote, your interpretation, and its source in one place.
-
-## 6. Find an idea and export it
-
-Search clips or filter tags. Export Markdown for writing, or JSON for backup.
+1. **Select a passage on a web page** — This article uses fictional content on an example domain.
+2. **Open it: your selection is ready** — Opening QuoteHarbor reads selected text for a preview. It saves only after you click Save.
+3. **Save the quote and source** — No note or tags required. The original page is attached automatically.
+4. **Mistake? Undo your last save** — One click removes the last clip. This demo saves it again for the library.
+5. **Return to your research library** — Read the quote, your interpretation, and its source in one place.
+6. **Find an idea and export it** — Search clips or filter tags. Export Markdown for writing, or JSON for backup.

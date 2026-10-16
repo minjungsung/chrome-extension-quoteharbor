@@ -1,3 +1,5 @@
 # Reviewer instructions
 
-Select a sentence on a web page. Open QuoteHarbor and choose Capture selected text. Add a note and tags, then save. Open the library, search or filter a tag, edit a clip, and export Markdown or JSON. Manual paste is supported. No login is needed.
+Version 1.2.0. No account required.
+
+Select a sentence on an HTTP page, then invoke QuoteHarbor from the toolbar. Confirm the selection is already previewed. Click Save quote & source without notes/tags. Undo removes that clip. Capture and save again; open Library and search the quote. Manual paste is supported.

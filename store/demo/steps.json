@@ -1,7 +1,7 @@
 {
   "name": "QuoteHarbor",
   "slug": "quoteharbor",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "Actual Chrome extension UI, recorded as step-by-step frames",
   "fixture": "Disposable profile; fictional example URLs and article text",
   "fastForward": null,
@@ -13,18 +13,18 @@
     },
     {
       "file": "step-02.png",
-      "title": "Capture the selection",
-      "caption": "QuoteHarbor reads only the selected text when you ask it to."
+      "title": "Open it: your selection is ready",
+      "caption": "Opening QuoteHarbor reads selected text for a preview. It saves only after you click Save."
     },
     {
       "file": "step-03.png",
-      "title": "Add why it mattered",
-      "caption": "Write your interpretation and add tags before saving."
+      "title": "Save the quote and source",
+      "caption": "No note or tags required. The original page is attached automatically."
     },
     {
       "file": "step-04.png",
-      "title": "Save the quote with its source",
-      "caption": "The clip is stored locally with its source URL, note, tags, and capture time."
+      "title": "Mistake? Undo your last save",
+      "caption": "One click removes the last clip. This demo saves it again for the library."
     },
     {
       "file": "step-05.png",

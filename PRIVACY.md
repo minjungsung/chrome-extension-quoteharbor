@@ -2,20 +2,18 @@
 
 Effective date: 2026-10-16.
 
-## Local data and processing
+## Data and access
 
-Local data includes captured quote text, user-written notes, tags, source page titles and URLs, and timestamps. Capturing reads only the current selection in the top page frame when explicitly requested.
+Local data includes quotes, optional notes and tags, source titles and URLs, and timestamps. Opening the popup reads the current selection in the top page frame for a preview. The selection is saved only after you click Save.
 
-Processing happens on your device. The developer does not receive, sell, or transmit this data. The extension has no developer servers, accounts, cloud sync, analytics, advertising, or remote executable code. Local processing can involve sensitive text or URLs supplied by you; the store disclosures describe the data handled by the extension even though it is not sent to the developer.
+`activeTab` temporarily accesses the current page after you invoke the extension. `scripting` reads selected text when the popup opens or when you click Refresh selected text. `storage` saves the library on this device. No background scanning occurs.
 
-## Permissions
+Processing is local. The developer receives no extension data. No accounts, cloud sync, ads, analytics or remote executable code. Google and Chrome have separate privacy policies.
 
-`activeTab` temporarily accesses the current page after you invoke the extension. `scripting` reads the selected text only when you choose Capture selected text. `storage` saves the library on your device. No background website scanning occurs.
+## Control and retention
 
-## Retention and control
-
-Local saved data remains until you delete it, clear extension data, or uninstall the extension. Exported files and clipboard contents are controlled by you. The library and collection tools provide delete and backup controls. LinkLoom keeps no persistent link history. FocusPet retains up to 90 days of daily counts and a lifetime companion total. Chrome and its Web Store have separate Google privacy policies.
+Saved data remains until deleted, extension storage is cleared, or the extension is uninstalled. Exported files and clipboard contents remain under your control and may contain private content. Use the library/collection delete and backup controls.
 
 ## Contact
 
-Use this repository's issue tracker or the Chrome Web Store support contact for privacy questions. Do not post private content in public issues.
+Use this repository’s issue tracker or the store support contact. Never post private information publicly.

@@ -1,17 +1,22 @@
 # QuoteHarbor
 
-Good ideas deserve a safe harbor.
+Keep the sentence. Keep its source.
 
-QuoteHarbor saves selected web passages with their source, your interpretation, and tags. Build a private research library, find a thought again, and export Markdown when it is time to write.
+Select a useful sentence, open QuoteHarbor, and save. The selection is previewed and its source is attached automatically. Notes and tags are optional; find the quote later in your local library.
+
+## See it work
+
+![Actual Chrome walkthrough](store/demo/walkthrough.gif)
+
+[Video and steps](store/demo/README.md). Fictional demo data; FocusPet completion is accelerated and disclosed.
 
 ## Features
 
-- Capture selected text from the current web page or paste a quote.
-- Attach a source URL, a note, and tags to every clip.
-- Save multiple clips from the same page.
-- Search quotes, notes, titles, URLs, and tags in a local library.
-- Edit clips, reopen source pages, and copy individual clips as Markdown.
-- Export filtered Markdown or JSON backups; import valid backups.
+- Preview the selected passage when you open the extension.
+- Save quote and source without writing a note or tags.
+- Undo your last save in the popup.
+- Search, edit and revisit quotes in the local library.
+- Optional notes, tags, Markdown export and JSON backups.
 
 ## Limits
 
@@ -19,28 +24,20 @@ Stores up to 1,000 clips, with quotes and notes limited to 20,000 characters eac
 
 ## Development
 
-Open `chrome://extensions`, enable Developer mode, choose **Load unpacked**, and select `extension/`. All runtime assets are packaged locally.
-
-Run `npm test` for logic tests. Run `npm run package` to validate and create an upload ZIP in `dist/`. No build step or runtime package dependencies are required.
+Load `extension/` unpacked in Chrome Developer mode. Run `npm test` and `npm run package`. There is no runtime dependency or build step.
 
 ## Privacy
 
-Local data includes captured quote text, user-written notes, tags, source page titles and URLs, and timestamps. Capturing reads only the current selection in the top page frame when explicitly requested.
+Local data includes quotes, optional notes and tags, source titles and URLs, and timestamps. Opening the popup reads the current selection in the top page frame for a preview. The selection is saved only after you click Save.
 
-`activeTab` temporarily accesses the current page after you invoke the extension. `scripting` reads the selected text only when you choose Capture selected text. `storage` saves the library on your device. No background website scanning occurs.
+`activeTab` temporarily accesses the current page after you invoke the extension. `scripting` reads selected text when the popup opens or when you click Refresh selected text. `storage` saves the library on this device. No background scanning occurs.
 
-See [PRIVACY.md](PRIVACY.md). No developer servers, advertising, or analytics.
+See [PRIVACY.md](PRIVACY.md). No accounts, ads or analytics.
 
-## Support
+## Product evidence
 
-Report reproducible bugs through this repository's issue tracker. Remove private information first.
+[Market analysis and validation plan](docs/market-analysis.md). Adoption remains unvalidated.
 
-## License
+## Support and license
 
-MIT.
-
-## See it in action
-
-![QuoteHarbor demo](store/demo/walkthrough.gif)
-
-[Watch the MP4](store/demo/walkthrough.mp4) · [Read the step-by-step guide](store/demo/README.md)
+Use the repository issue tracker; remove private information. MIT.
