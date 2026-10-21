@@ -6,3 +6,5 @@ body:not(.library){height:600px;display:flex;flex-direction:column}body:not(.lib
 :root{--accent:#386c80;background:#f3f6f5}.full{width:100%}.clip blockquote{margin:15px 0;padding:12px 16px;border-left:3px solid #8baab4;background:#f5f8f9;white-space:pre-wrap;font-family:Georgia,serif;font-size:16px;line-height:1.7}.clip-note{white-space:pre-wrap;font-size:13px}.source{display:block;margin-top:12px;font-size:12px}.editor textarea,.editor input,.editor button{margin-top:10px}.primary{background:var(--accent)}.library main{padding-bottom:40px}
 
 #clip-details{margin-top:14px}#clip-details>summary{font-size:12px;color:var(--accent);cursor:pointer}#quote{min-height:130px!important}#undo{margin-top:7px}#recent-count{font-size:11px}#capture{background:#e8eff2;color:var(--accent)}
+
+.review-card{margin-top:16px;padding:12px;border:1px solid #ddd;border-radius:12px;background:#fff;font-size:12px;line-height:1.5}.review-card p{margin:0 0 8px}.review-card a{margin-right:14px}.review-card button{font-size:11px}

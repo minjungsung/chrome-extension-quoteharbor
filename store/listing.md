@@ -1,18 +1,18 @@
 # QuoteHarbor
 
-## Category
+## Store fields
 
-Workflow & Planning
-
-## Language
-
-English
+- Title: QuoteHarbor: Save Quotes & Sources
+- Summary: Save selected web quotes with source links. Search your local library, add notes and tags, and export Markdown.
+- Category: Workflow & Planning
+- Language: English
 
 ## Description
 
-Keep the sentence. Keep its source.
+QuoteHarbor saves selected text from web pages together with its source title and link. Keep useful quotes for research, reading, or writing, then find them in a searchable local library.
 
-Select a useful sentence, open QuoteHarbor, and save. The selection is previewed and its source is attached automatically. Notes and tags are optional; find the quote later in your local library.
+GET STARTED
+Select a passage on a web page and open QuoteHarbor. Check the preview and click Save. Open the library to search or export your clips.
 
 FEATURES
 - Preview the selected passage when you open the extension.

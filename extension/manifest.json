@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "QuoteHarbor",
-  "version": "1.2.0",
-  "description": "Select a web sentence, open the popup, and save it with its source. Notes and tags are optional; export Markdown later.",
+  "name": "QuoteHarbor: Save Quotes & Sources",
+  "version": "1.2.1",
+  "description": "Save selected web quotes with source links. Search your local library, add notes and tags, and export Markdown.",
   "permissions": [
     "storage",
     "activeTab",
@@ -17,5 +17,6 @@
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
-  }
+  },
+  "short_name": "QuoteHarbor"
 }

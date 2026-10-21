@@ -22,6 +22,10 @@ Select a useful sentence, open QuoteHarbor, and save. The selection is previewed
 
 Stores up to 1,000 clips, with quotes and notes limited to 20,000 characters each. Capture works on permitted HTTP and HTTPS pages. Some pages, embedded frames, and browser PDF viewers do not allow capture; paste text manually when needed. QuoteHarbor does not highlight websites permanently, create verified academic citations, summarize with AI, or sync to a cloud. Existing MarginMemo notes migrate to the library on first open.
 
+## Feedback
+
+The help page links to honest Chrome Web Store reviews. An optional, dismissible notice appears after repeated successful use across at least one week; preferences stay on this device.
+
 ## Development
 
 Load `extension/` unpacked in Chrome Developer mode. Run `npm test` and `npm run package`. There is no runtime dependency or build step.
